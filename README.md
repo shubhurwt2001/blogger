@@ -1,5 +1,7 @@
 # Blogger VUE3JS + VITE
 
+Read and write blogs with firebase authentication and realtime database.
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
