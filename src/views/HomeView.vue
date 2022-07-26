@@ -1,3 +1,6 @@
+<script setup>
+import { RouterLink, RouterView } from "vue-router";
+</script>
 <template>
   <div class="container">
     <div class="row" v-if="blogs.length > 0">
@@ -33,8 +36,8 @@
                 }}</i
               >
             </p>
-            <a :href="`/blog/${article.id}`" class="btn btn-primary"
-              >Read Blog</a
+            <RouterLink :to="`blog/${article.id}`" class="btn btn-primary"
+              >Read Blog</RouterLink
             >
           </div>
         </div>
